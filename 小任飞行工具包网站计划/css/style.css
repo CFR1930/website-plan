@@ -1,0 +1,31 @@
+*{
+    top: 0;
+    left: 0;
+    /* background-color: azure; */
+}
+/* 导航栏字的颜色 */
+a{
+    text-decoration:none;
+    color: rgb(107, 107, 107);
+    font-size: 23px;
+    padding: 0 10px;
+
+}
+
+header{
+    text-align:center ;
+    box-shadow: 10px 5px 5px rgb(131, 131, 131);
+    padding: 5px 0;
+    /* 调整导航栏间距 */
+    line-height: 1px;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+}
+
+a:hover,
+a.item{
+    color: rgb(68, 149, 255);
+}

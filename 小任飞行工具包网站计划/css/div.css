@@ -1,0 +1,94 @@
+.div3{
+	/* 和div2合并 */
+    /* 背景 */
+    background-color: #282A2E;
+    /* 高度 */
+    height: 700px;
+    text-align: center;
+    
+}
+.div3-h2{
+	text-align:center;
+	margin: 0 0 4%;
+	font-size: 1.8em;
+	color: #ffffff;
+	text-transform: uppercase;
+	font-weight: 400;
+}
+
+.images{
+	display: block;
+	/* 给我横过来 */
+	float:left;
+	
+	margin-left:3%;
+	text-align: center;
+
+}
+.images {
+	width: 21.6%;
+}
+.images  img{
+	max-width: 100%;
+	/* 固定死图片宽度高度 */
+	width: 100px;
+	height: 100px;
+	
+	margin-bottom: 23px;
+	border-radius: 30em;
+	-webkit-border-radius: 30em;
+	-o-border-radius: 30em;
+	-moz-border-radius: 30em;
+	padding: 45px;
+	background: #313338;
+	cursor: pointer;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+}
+
+.images  h3 a{
+	color:#ffffff;
+	font-size:1.5em;
+	font-weight :400;
+	transition: 0.5s all;
+	-webkit-transition: 0.5s all;
+	-moz-transition: 0.5s all;
+	-o-transition: 0.5s all;
+}
+.images  h3 a:hover{
+	color:#25BEA0;
+}
+.images  h3
+{
+	padding: 0em 0em 0em 0em;
+}
+.images  p
+{
+	padding: 0em 0em 1.5em 0em;
+	font-size:0.875em;
+	color:#C0BEBE;
+	line-height: 1.8em;
+}
+
+.images .button a{
+		padding:7px 10px;
+		font-size:0.9em;
+		background:#49CBCD;       
+        color : #fff;
+      	-moz-border-radius: 3px;
+		-webkit-border-radius: 3px;
+		border-radius: 3px;
+		transition: 0.5s all;
+		-webkit-transition: 0.5s all;
+		-moz-transition: 0.5s all;
+		-o-transition: 0.5s all;
+}
+.images .button a:hover{
+	   background: #296E6F;
+        text-decoration:none;
+}
+h1{
+    font-size: 50px;
+}
